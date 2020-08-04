@@ -16,10 +16,6 @@ The SLAM project uses RTAB-Map (Real-Time Appearance-Based Mapping) package inte
 
     * `git clone https://github.com/tonyli0130/ROS_SLAM.git`
 
-3. Clone the `teleop` package for controlling the robot:
-
-    * `git clone https://github.com/ros-teleop/teleop_twist_keyboard`
-
  
 3. Make and compiler the project (**remember to source the environment variables in every new opened terminals**):
  
@@ -28,9 +24,14 @@ The SLAM project uses RTAB-Map (Real-Time Appearance-Based Mapping) package inte
     * `catkin_make`
  
     * `source devel/setup.bash`
+    
+    
+4. Clone the `teleop` package for controlling the robot:
+
+    * `git clone https://github.com/ros-teleop/teleop_twist_keyboard`
  
  
-4. Update and upgrade the workspace image to get the lattest features of Gazebo, open a terminal and write the following statements:
+5. Update and upgrade the workspace image to get the lattest features of Gazebo, open a terminal and write the following statements:
 
     * `$ sudo apt-get update && sudo apt-get upgrade -y`
 
