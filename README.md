@@ -1,4 +1,5 @@
 # ROS_SLAM
+The SLAM project uses RTAB-Map (Real-Time Appearance-Based Mapping) package interacting with robot in gazebo world to localize the robot position and generate the map simultaneously under ROS (Robot Operation System) framework. RTAB-Map algorithm can map the environment in 3D and enable loop enclosure to keep tracking of new unvisited and previous visited scene which improves the quality and accuracy for generating 3D map. Moreover, RTAB-Map has good speed and memory management, and it provides custom developed tools for information analysis. 
 
 
 ## Installation
